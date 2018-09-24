@@ -9,12 +9,15 @@ This package contains the necessary xAPi typescript definitions types to work wi
 It also includes some external xAPI vocabulary terms (e.g. verbs, activities and extension identifiers) to be used in a centralized way. Some of the xAPI vocabularies considered here are:
 
 - external
-  - tincan
-  - adl
+  - [tincan](http://xapi.vocab.pub/describe/?url=https%3A%2F%2Fregistry.tincanapi.com&sid=32726)
+  - [acrossx](http://xapi.vocab.pub/describe/?url=https://w3id.org/xapi/acrossx)
+  - [adl](http://xapi.vocab.pub/describe/?url=https%3A%2F%2Fw3id.org%2Fxapi%2Fadl&sid=32724)
   - activitystream
   - qti
-- internal \* smart
+- internal
+  - smart
   - gradiant
+  - in2it
 
 ## Getting started
 
