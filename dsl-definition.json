@@ -1,0 +1,435 @@
+{
+  "activityTypes": {
+    "activityStream": {
+      "v1": {
+        "audio": "http://activitystrea.ms/schema/1.0/audio",
+        "video": "http://activitystrea.ms/schema/1.0/video"
+      }
+    },
+    "as": {
+      "v1": {
+        "audio": "http://activitystrea.ms/schema/1.0/audio",
+        "video": "http://activitystrea.ms/schema/1.0/video"
+      }
+    },
+    "qti": {
+      "choice": "http://imsglobal.org/qti/choice",
+      "inlineChoice": "http://imsglobal.org/qti/inlineChoice",
+      "multipleChoice": "http://imsglobal.org/qti/choiceMultiple",
+      "textEntry": "http://imsglobal.org/qti/textEntry"
+    },
+    "smart": {
+      "binaryChoice": "https://w3id.org/xapi/smart/activity/binary-choice",
+      "closedResponse": "https://w3id.org/xapi/smart/activity/closed-response",
+      "dropDownChoice": "https://w3id.org/xapi/smart/activity/drop-down-choice",
+      "essay": "https://w3id.org/xapi/smart/activity/essay",
+      "fillInTheGaps": "https://w3id.org/xapi/smart/activity/fill-in-the-gaps",
+      "matchingPairs": "https://w3id.org/xapi/smart/activity/matching-pairs",
+      "multipleChoice": "https://w3id.org/xapi/smart/activity/multiple-choice",
+      "openAnswer": "https://w3id.org/xapi/smart/activity/open-answer",
+      "singleChoice": "https://w3id.org/xapi/smart/activity/single-choice",
+      "wordsBank": "https://w3id.org/xapi/smart/activity/words-bank",
+      "audio": "https://w3id.org/xapi/smart/activity/audio",
+      "video": "https://w3id.org/xapi/smart/activity/video",
+      "noInteractive": "https://w3id.org/xapi/smart/activity/no-interactive",
+      "discussion": "https://w3id.org/xapi/smart/activity/discussion",
+      "book": "https://w3id.org/xapi/smart/activity/book",
+      "unit": "https://w3id.org/xapi/smart/activity/unit",
+      "lesson": "https://w3id.org/xapi/smart/activity/lesson",
+      "screen": "https://w3id.org/xapi/smart/activity/screen",
+      "recipe": "https://w3id.org/xapi/smart/activity/recipe",
+      "attempt": "https://w3id.org/xapi/smart/activity/attempt"
+    },
+    "in2it": {
+      "essay": "http://gradiant.org/in2it/schema/ActivityType/essay"
+    },
+    "tincan": {
+      "discussion": "http://id.tincanapi.com/activitytype/discussion",
+      "forumTopic": "http://id.tincanapi.com/activitytype/forum-topic",
+      "forumReply": "http://id.tincanapi.com/activitytype/forum-reply"
+    }
+  },
+  "categoryIdentifiers": {
+    "smart": {
+      "recipeClosedResponse": "https://w3id.org/xapi/smart/activity/recipe/closed_response",
+      "recipeOpenAnswer": "https://w3id.org/xapi/smart/activity/recipe/open_answer",
+      "recipeAudioVideo": "https://w3id.org/xapi/smart/activity/recipe/audio_video",
+      "recipeDiscussion": "https://w3id.org/xapi/smart/activity/recipe/discussion",
+      "recipeNoInteractive": "https://w3id.org/xapi/smart/activity/recipe/no_interactive"
+    }
+  },
+  "contextExtensions": {
+    "gradiant": {
+      "workflow": "http://gradiant.org/schema/elearning/activity/workflow",
+      "activityContext": "http://gradiant.org/schema/elearning/activity/context",
+      "laeData": "http://gradiant.org/schema/elearning/learning-analytics-engine",
+      "level": "http://gradiant.org/level",
+      "time": "http://gradiant.org/time"
+    },
+    "in2it": {
+      "interactionContext": "http://gradiant.org/in2it/schema/interactionContext",
+      "sequenceNumber": "http://gradiant.org/in2it/schema/sequenceNumber",
+      "attemptId": "http://gradiant.org/in2it/schema/attemptId",
+      "sectionId": "http://gradiant.org/in2it/schema/sectionId",
+      "sessionId": "http://gradiant.org/in2it/schema/sessionId"
+    },
+    "smart": {
+      "interactionContext": "https://w3id.org/xapi/smart/extension/context/interaction-context",
+      "activityContext": "https://w3id.org/xapi/smart/extension/context/activity-context",
+      "otherExtensions": "https://w3id.org/xapi/smart/extension/context/other-extensions",
+      "extendedUserData": "https://w3id.org/xapi/smart/extension/context/extended-user-data"
+    },
+    "tincan": {
+      "startingPoint": "http://id.tincanapi.com/extension/starting-point",
+      "endingPoint": "http://id.tincanapi.com/extension/ending-point",
+      "duration": "http://id.tincanapi.com/extension/duration"
+    }
+  },
+  "resultExtensions": {
+    "smart": {
+      "userAction": "https://w3id.org/xapi/smart/extension/result/user-action",
+      "evaluationFeedback": "https://w3id.org/xapi/smart/extension/result/evaluation-feedback",
+      "discussionMessage": "https://w3id.org/xapi/smart/extension/result/discussion-message"
+    }
+  },
+  "objectExtensions": {
+    "smart": {
+      "attemptContext": "https://w3id.org/xapi/smart/extension/object/attempt-context",
+      "studentResponse": "https://w3id.org/xapi/smart/extension/object/student-response"
+    }
+  },
+  "verbs": {
+    "ids": {
+      "adl": {
+        "abandoned": "https://w3id.org/xapi/adl/verbs/abandoned",
+        "answered": "http://adlnet.gov/expapi/verbs/answered",
+        "asked": "http://adlnet.gov/expapi/verbs/asked",
+        "attempted": "http://adlnet.gov/expapi/verbs/attempted",
+        "attended": "http://adlnet.gov/expapi/verbs/attended",
+        "commented": "http://adlnet.gov/expapi/verbs/commented",
+        "completed": "http://adlnet.gov/expapi/verbs/completed",
+        "evaluated": "https://w3id.org/xapi/acrossx/verbs/evaluated",
+        "exited": "http://adlnet.gov/expapi/verbs/exited",
+        "experienced": "http://adlnet.gov/expapi/verbs/experienced",
+        "failed": "http://adlnet.gov/expapi/verbs/failed",
+        "imported": "http://adlnet.gov/expapi/verbs/imported",
+        "initialized": "http://adlnet.gov/expapi/verbs/initialized",
+        "interacted": "http://adlnet.gov/expapi/verbs/interacted",
+        "launched": "http://adlnet.gov/expapi/verbs/launched",
+        "mastered": "http://adlnet.gov/expapi/verbs/mastered",
+        "passed": "http://adlnet.gov/expapi/verbs/passed",
+        "preferred": "http://adlnet.gov/expapi/verbs/preferred",
+        "progressed": "http://adlnet.gov/expapi/verbs/progressed",
+        "registered": "http://adlnet.gov/expapi/verbs/registered",
+        "responded": "http://adlnet.gov/expapi/verbs/responded",
+        "resumed": "http://adlnet.gov/expapi/verbs/resumed",
+        "satisfied": "https://w3id.org/xapi/adl/verbs/satisfied",
+        "scored": "http://adlnet.gov/expapi/verbs/scored",
+        "shared": "http://adlnet.gov/expapi/verbs/shared",
+        "suspended": "http://adlnet.gov/expapi/verbs/suspended",
+        "terminated": "http://adlnet.gov/expapi/verbs/terminated",
+        "voided": "http://adlnet.gov/expapi/verbs/voided",
+        "waived": "https://w3id.org/xapi/adl/verbs/waived"
+      },
+      "activityStream": {
+        "v1": {
+          "complete": "http://activitystrea.ms/schema/1.0/complete",
+          "play": "http://activitystrea.ms/schema/1.0/play",
+          "watch": "http://activitystrea.ms/schema/1.0/watch",
+          "listen": "http://activitystrea.ms/schema/1.0/listen",
+          "flagAsInappropriate": "http://activitystrea.ms/schema/1.0/flag-as-inappropriate",
+          "deleted": "http://activitystrea.ms/schema/1.0/delete",
+          "liked": "http://activitystrea.ms/schema/1.0/like"
+        }
+      },
+      "acrossx": {
+        "evaluated": "https://w3id.org/xapi/acrossx/verbs/evaluated",
+        "posted": "https://w3id.org/xapi/acrossx/verbs/posted"
+      },
+      "tincan": {
+        "enabled": "http://id.tincanapi.com/verb/enabled",
+        "disabled": "http://id.tincanapi.com/verb/disabled",
+        "paused": "http://id.tincanapi.com/verb/paused",
+        "replied": "http://id.tincanapi.com/verb/replied",
+        "skipped": "http://id.tincanapi.com/verb/skipped",
+        "votedUp": "http://id.tincanapi.com/verb/voted-up",
+        "votedDown": "http://id.tincanapi.com/verb/voted-down"
+      }
+    },
+    "adl": {
+      "abandoned": {
+        "id": "https://w3id.org/xapi/adl/verbs/abandoned"
+      },
+      "answered": {
+        "display": {
+          "und": "answered",
+          "es-ES": "respondió",
+          "en-US": "answered"
+        },
+        "id": "http://adlnet.gov/expapi/verbs/answered"
+      },
+      "asked": {
+        "id": "http://adlnet.gov/expapi/verbs/asked"
+      },
+      "attempted": {
+        "id": "http://adlnet.gov/expapi/verbs/attempted"
+      },
+      "attended": {
+        "id": "http://adlnet.gov/expapi/verbs/attended"
+      },
+      "commented": {
+        "id": "http://adlnet.gov/expapi/verbs/commented"
+      },
+      "completed": {
+        "id": "http://adlnet.gov/expapi/verbs/completed"
+      },
+      "evaluated": {
+        "display": {
+          "und": "evaluated",
+          "es-ES": "evaluó",
+          "en-US": "evaluated"
+        },
+        "id": "https://w3id.org/xapi/acrossx/verbs/evaluated"
+      },
+      "exited": {
+        "id": "http://adlnet.gov/expapi/verbs/exited"
+      },
+      "experienced": {
+        "id": "http://adlnet.gov/expapi/verbs/experienced"
+      },
+      "failed": {
+        "display": {
+          "und": "failed",
+          "es-ES": "falló",
+          "en-US": "failed",
+          "de-DE": "failed"
+        },
+        "id": "http://adlnet.gov/expapi/verbs/failed"
+      },
+      "imported": {
+        "id": "http://adlnet.gov/expapi/verbs/imported"
+      },
+      "initialized": {
+        "display": {
+          "und": "initialized",
+          "es-ES": "inicializó",
+          "en-US": "initialized",
+          "de-DE": "initialisierte"
+        },
+        "id": "http://adlnet.gov/expapi/verbs/initialized"
+      },
+      "interacted": {
+        "display": {
+          "und": "interacted",
+          "es-ES": "interactuó",
+          "en-US": "interacted"
+        },
+        "id": "http://adlnet.gov/expapi/verbs/interacted"
+      },
+      "launched": {
+        "id": "http://adlnet.gov/expapi/verbs/launched"
+      },
+      "mastered": {
+        "id": "http://adlnet.gov/expapi/verbs/mastered"
+      },
+      "passed": {
+        "display": {
+          "und": "passed",
+          "es-ES": "pasó",
+          "en-US": "passed",
+          "de-DE": "bestanden"
+        },
+        "id": "http://adlnet.gov/expapi/verbs/passed"
+      },
+      "preferred": {
+        "id": "http://adlnet.gov/expapi/verbs/preferred"
+      },
+      "progressed": {
+        "display": {
+          "und": "progressed",
+          "es-ES": "progresó",
+          "en-US": "progressed"
+        },
+        "id": "http://adlnet.gov/expapi/verbs/progressed"
+      },
+      "registered": {
+        "id": "http://adlnet.gov/expapi/verbs/registered"
+      },
+      "responded": {
+        "display": {
+          "und": "responded",
+          "es-ES": "respondió",
+          "en-US": "responded",
+          "de-DE": "responded"
+        },
+        "id": "http://adlnet.gov/expapi/verbs/responded"
+      },
+      "resumed": {
+        "id": "http://adlnet.gov/expapi/verbs/resumed"
+      },
+      "satisfied": {
+        "id": "https://w3id.org/xapi/adl/verbs/satisfied"
+      },
+      "scored": {
+        "id": "http://adlnet.gov/expapi/verbs/scored"
+      },
+      "shared": {
+        "id": "http://adlnet.gov/expapi/verbs/shared"
+      },
+      "suspended": {
+        "id": "http://adlnet.gov/expapi/verbs/suspended"
+      },
+      "terminated": {
+        "display": {
+          "und": "terminated",
+          "es-ES": "terminó",
+          "en-US": "terminated",
+          "de-DE": "beendete"
+        },
+        "id": "http://adlnet.gov/expapi/verbs/terminated"
+      },
+      "voided": {
+        "id": "http://adlnet.gov/expapi/verbs/voided"
+      },
+      "waived": {
+        "id": "https://w3id.org/xapi/adl/verbs/waived"
+      }
+    },
+    "activityStream": {
+      "v1": {
+        "complete": {
+          "display": {
+            "und": "complete",
+            "es-ES": "completó",
+            "en-US": "complete"
+          },
+          "id": "http://activitystrea.ms/schema/1.0/complete"
+        },
+        "play": {
+          "display": {
+            "und": "played",
+            "es-ES": "reproduce",
+            "en-US": "played"
+          },
+          "id": "http://activitystrea.ms/schema/1.0/play"
+        },
+        "watch": {
+          "display": {
+            "und": "watched",
+            "es-ES": "vió",
+            "en-US": "watched"
+          },
+          "id": "http://activitystrea.ms/schema/1.0/watch"
+        },
+        "listen": {
+          "display": {
+            "und": "listened",
+            "es-ES": "escuchó",
+            "en-US": "listened"
+          },
+          "id": "http://activitystrea.ms/schema/1.0/listen"
+        },
+        "flagAsInappropriate": {
+          "display": {
+            "und": "flagged as inappropriate",
+            "es-ES": "marcó como inapropiado",
+            "en-US": "flagged as inappropriate"
+          },
+          "id": "http://activitystrea.ms/schema/1.0/flag-as-inappropriate"
+        },
+        "deleted": {
+          "display": {
+            "und": "deleted",
+            "es-ES": "eliminó",
+            "en-US": "deleted"
+          },
+          "id": "http://activitystrea.ms/schema/1.0/delete"
+        },
+        "liked": {
+          "display": {
+            "und": "liked",
+            "es-ES": "le gustó",
+            "en-US": "liked"
+          },
+          "id": "http://activitystrea.ms/schema/1.0/like"
+        }
+      }
+    },
+    "acrossx": {
+      "evaluated": {
+        "display": {
+          "und": "evaluated",
+          "es-ES": "evaluó",
+          "en-US": "evaluated"
+        },
+        "id": "https://w3id.org/xapi/acrossx/verbs/evaluated"
+      },
+      "posted": {
+        "display": {
+          "und": "posted",
+          "es-ES": "posteó",
+          "en-US": "posted"
+        },
+        "id": "https://w3id.org/xapi/acrossx/verbs/posted"
+      }
+    },
+    "tincan": {
+      "enabled": {
+        "display": {
+          "und": "enabled",
+          "es-ES": "activó",
+          "en-US": "enabled"
+        },
+        "id": "http://id.tincanapi.com/verb/enabled"
+      },
+      "disabled": {
+        "display": {
+          "und": "disabled",
+          "es-ES": "desactivó",
+          "en-US": "disabled"
+        },
+        "id": "http://id.tincanapi.com/verb/disabled"
+      },
+      "paused": {
+        "display": {
+          "und": "paused",
+          "es-ES": "pausó",
+          "en-US": "paused"
+        },
+        "id": "http://id.tincanapi.com/verb/paused"
+      },
+      "replied": {
+        "display": {
+          "und": "replied",
+          "es-ES": "replicó",
+          "en-US": "replied"
+        },
+        "id": "http://id.tincanapi.com/verb/replied"
+      },
+      "skipped": {
+        "display": {
+          "und": "skipped",
+          "es-ES": "saltó",
+          "en-US": "skipped"
+        },
+        "id": "http://id.tincanapi.com/verb/skipped"
+      },
+      "votedUp": {
+        "display": {
+          "und": "voted up",
+          "es-ES": "votó en positivo",
+          "en-US": "voted up"
+        },
+        "id": "http://id.tincanapi.com/verb/voted-up"
+      },
+      "votedDown": {
+        "display": {
+          "und": "voted down",
+          "es-ES": "votó en negativo",
+          "en-US": "voted down"
+        },
+        "id": "http://id.tincanapi.com/verb/voted-down"
+      }
+    }
+  }
+}

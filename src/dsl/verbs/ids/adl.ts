@@ -1,0 +1,31 @@
+export namespace adl {
+  export const abandoned = 'https://w3id.org/xapi/adl/verbs/abandoned';
+  export const answered = 'http://adlnet.gov/expapi/verbs/answered';
+  export const asked = 'http://adlnet.gov/expapi/verbs/asked';
+  export const attempted = 'http://adlnet.gov/expapi/verbs/attempted';
+  export const attended = 'http://adlnet.gov/expapi/verbs/attended';
+  export const commented = 'http://adlnet.gov/expapi/verbs/commented';
+  export const completed = 'http://adlnet.gov/expapi/verbs/completed';
+  export const evaluated = 'https://w3id.org/xapi/acrossx/verbs/evaluated';
+  export const exited = 'http://adlnet.gov/expapi/verbs/exited';
+  export const experienced = 'http://adlnet.gov/expapi/verbs/experienced';
+  export const failed = 'http://adlnet.gov/expapi/verbs/failed';
+  export const imported = 'http://adlnet.gov/expapi/verbs/imported';
+  export const initialized = 'http://adlnet.gov/expapi/verbs/initialized';
+  export const interacted = 'http://adlnet.gov/expapi/verbs/interacted';
+  export const launched = 'http://adlnet.gov/expapi/verbs/launched';
+  export const mastered = 'http://adlnet.gov/expapi/verbs/mastered';
+  export const passed = 'http://adlnet.gov/expapi/verbs/passed';
+  export const preferred = 'http://adlnet.gov/expapi/verbs/preferred';
+  export const progressed = 'http://adlnet.gov/expapi/verbs/progressed';
+  export const registered = 'http://adlnet.gov/expapi/verbs/registered';
+  export const responded = 'http://adlnet.gov/expapi/verbs/responded';
+  export const resumed = 'http://adlnet.gov/expapi/verbs/resumed';
+  export const satisfied = 'https://w3id.org/xapi/adl/verbs/satisfied';
+  export const scored = 'http://adlnet.gov/expapi/verbs/scored';
+  export const shared = 'http://adlnet.gov/expapi/verbs/shared';
+  export const suspended = 'http://adlnet.gov/expapi/verbs/suspended';
+  export const terminated = 'http://adlnet.gov/expapi/verbs/terminated';
+  export const voided = 'http://adlnet.gov/expapi/verbs/voided';
+  export const waived = 'https://w3id.org/xapi/adl/verbs/waived';
+}

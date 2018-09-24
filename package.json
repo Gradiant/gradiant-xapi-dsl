@@ -1,0 +1,67 @@
+{
+  "name": "@gradiant/xapi-dsl",
+  "version": "0.0.0-dev",
+  "description": "Gradiant XAPI constans for xAPI",
+  "license": "UNLICENSED",
+  "author": "Lorens León <lleon@gradiant.org>",
+  "engines": {
+    "node": ">=8"
+  },
+  "contributors": [
+    "Agustín Cañas <acanas@gradiant.org>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gradiant/gradiant-xapi-dsl"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "clean": "rm -rf dsl types index.js index.d.ts index.d.ts.map",
+    "lint": "prettier --write 'src/**/*.{js,ts}' && tslint --fix 'src/**/*.{js,ts}'",
+    "dsl:print": "node -r ts-node/register/transpile-only -p \"JSON.stringify(require('./src').dsl, null, 2)\" > dsl-definition.json"
+  },
+  "devDependencies": {
+    "husky": "^1.0.0-rc.15",
+    "lint-staged": "^7.3.0",
+    "prettier": "1.14.3",
+    "semantic-release": "^15.9.16",
+    "travis-deploy-once": "^5.0.8",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run dsl:print && git add dsl-definition.json",
+      "post-commit": "git update-index --again"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "src/**/*.{js,ts}": [
+        "prettier --write",
+        "tslint --fix",
+        "git add"
+      ],
+      "*.{md,json}": [
+        "prettier --write",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "package.json",
+      "package-lock.json",
+      "tsconfig.json"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 140,
+    "tabWidth": 2
+  }
+}

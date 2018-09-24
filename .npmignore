@@ -1,0 +1,6 @@
+/node_modules
+/.gitignore
+/.prettierignore
+/.travis.yml
+/dsl-definition.json
+/tslint.json
