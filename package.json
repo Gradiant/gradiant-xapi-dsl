@@ -17,7 +17,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "tsc --noEmit",
+    "test": "tslint 'src/**/*.{js,ts}' && prettier -l 'src/**/*.{js,ts}' && tsc --noEmit",
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean",
     "build": "tsc",
