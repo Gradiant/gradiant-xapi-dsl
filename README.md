@@ -1,3 +1,7 @@
+[![npm version](https://badge.fury.io/js/%40gradiant%2Fxapi-dsl.svg)](https://badge.fury.io/js/%40gradiant%2Fxapi-dsl)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+
 # Gradiant xAPI DSL
 
 Set of types for easily building xAPI statements.
