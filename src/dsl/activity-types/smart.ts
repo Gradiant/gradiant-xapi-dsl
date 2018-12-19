@@ -26,4 +26,7 @@ export namespace smart {
 
   // Other
   export const attempt = 'https://w3id.org/xapi/smart/activity/attempt';
+
+  // Quiztionary
+  export const quiz = 'https://w3id.org/xapi/smart/activity/quiz';
 }

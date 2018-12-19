@@ -38,7 +38,8 @@
       "lesson": "https://w3id.org/xapi/smart/activity/lesson",
       "screen": "https://w3id.org/xapi/smart/activity/screen",
       "recipe": "https://w3id.org/xapi/smart/activity/recipe",
-      "attempt": "https://w3id.org/xapi/smart/activity/attempt"
+      "attempt": "https://w3id.org/xapi/smart/activity/attempt",
+      "quiz": "https://w3id.org/xapi/smart/activity/quiz"
     },
     "in2it": {
       "essay": "http://gradiant.org/in2it/schema/ActivityType/essay"
