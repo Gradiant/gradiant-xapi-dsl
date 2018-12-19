@@ -96,7 +96,8 @@
   "objectExtensions": {
     "smart": {
       "attemptContext": "https://w3id.org/xapi/smart/extension/object/attempt-context",
-      "studentResponse": "https://w3id.org/xapi/smart/extension/object/student-response"
+      "studentResponse": "https://w3id.org/xapi/smart/extension/object/student-response",
+      "questions": "https://w3id.org/xapi/smart/extension/object/questions"
     }
   },
   "verbs": {
