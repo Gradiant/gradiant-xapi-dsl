@@ -65,5 +65,14 @@ export namespace activityStream {
       },
       id: ids.activityStream.v1.liked
     };
+
+    export const accessed: Verb = {
+      display: {
+        und: 'accessed',
+        'es-ES': 'accedió',
+        'en-US': 'accessed'
+      },
+      id: ids.activityStream.v1.accessed
+    };
   }
 }

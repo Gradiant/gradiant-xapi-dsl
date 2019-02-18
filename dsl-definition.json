@@ -141,7 +141,8 @@
           "listen": "http://activitystrea.ms/schema/1.0/listen",
           "flagAsInappropriate": "http://activitystrea.ms/schema/1.0/flag-as-inappropriate",
           "deleted": "http://activitystrea.ms/schema/1.0/delete",
-          "liked": "http://activitystrea.ms/schema/1.0/like"
+          "liked": "http://activitystrea.ms/schema/1.0/like",
+          "accessed": "http://activitystrea.ms/schema/1.0/access"
         }
       },
       "acrossx": {
@@ -354,6 +355,14 @@
             "en-US": "liked"
           },
           "id": "http://activitystrea.ms/schema/1.0/like"
+        },
+        "accessed": {
+          "display": {
+            "und": "accessed",
+            "es-ES": "accedió",
+            "en-US": "accessed"
+          },
+          "id": "http://activitystrea.ms/schema/1.0/access"
         }
       }
     },

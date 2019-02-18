@@ -7,5 +7,6 @@ export namespace activityStream {
     export const flagAsInappropriate = 'http://activitystrea.ms/schema/1.0/flag-as-inappropriate';
     export const deleted = 'http://activitystrea.ms/schema/1.0/delete';
     export const liked = 'http://activitystrea.ms/schema/1.0/like';
+    export const accessed = 'http://activitystrea.ms/schema/1.0/access';
   }
 }
