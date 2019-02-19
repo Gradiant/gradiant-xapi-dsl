@@ -84,6 +84,9 @@
       "startingPoint": "http://id.tincanapi.com/extension/starting-point",
       "endingPoint": "http://id.tincanapi.com/extension/ending-point",
       "duration": "http://id.tincanapi.com/extension/duration"
+    },
+    "risc": {
+      "forumJoinType": "http://risc-inc.com/xapi/extensions/ForumJoinType"
     }
   },
   "resultExtensions": {
