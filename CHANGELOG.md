@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.4.1"></a>
+## [1.4.1](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.4.0...v1.4.1) (2019-02-19)
+
+
+### Bug Fixes
+
+* export acrossx object extensions ([158dce9](https://github.com/Gradiant/gradiant-xapi-dsl/commit/158dce9))
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.3.0...v1.4.0) (2019-02-19)
 
