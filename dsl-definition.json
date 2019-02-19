@@ -98,6 +98,9 @@
       "attemptContext": "https://w3id.org/xapi/smart/extension/object/attempt-context",
       "studentResponse": "https://w3id.org/xapi/smart/extension/object/student-response",
       "questions": "https://w3id.org/xapi/smart/extension/object/questions"
+    },
+    "acrossx": {
+      "suplementalInfo": "https://w3id.org/xapi/acrossx/extensions/supplemental-info"
     }
   },
   "verbs": {
