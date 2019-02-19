@@ -74,5 +74,14 @@ export namespace activityStream {
       },
       id: ids.activityStream.v1.accessed
     };
+
+    export const created: Verb = {
+      display: {
+        und: 'created',
+        'es-ES': 'creó',
+        'en-US': 'created'
+      },
+      id: ids.activityStream.v1.created
+    };
   }
 }
