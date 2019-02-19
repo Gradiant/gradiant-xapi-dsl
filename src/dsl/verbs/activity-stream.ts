@@ -83,5 +83,14 @@ export namespace activityStream {
       },
       id: ids.activityStream.v1.created
     };
+
+    export const joined: Verb = {
+      display: {
+        und: 'joined',
+        'es-ES': 'se unió',
+        'en-US': 'joined'
+      },
+      id: ids.activityStream.v1.joined
+    };
   }
 }

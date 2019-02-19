@@ -9,5 +9,6 @@ export namespace activityStream {
     export const liked = 'http://activitystrea.ms/schema/1.0/like';
     export const accessed = 'http://activitystrea.ms/schema/1.0/access';
     export const created = 'http://activitystrea.ms/schema/1.0/create';
+    export const joined = 'https://activitystrea.ms/schema/1.0/join';
   }
 }

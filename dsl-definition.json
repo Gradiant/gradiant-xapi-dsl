@@ -143,7 +143,8 @@
           "deleted": "http://activitystrea.ms/schema/1.0/delete",
           "liked": "http://activitystrea.ms/schema/1.0/like",
           "accessed": "http://activitystrea.ms/schema/1.0/access",
-          "created": "http://activitystrea.ms/schema/1.0/create"
+          "created": "http://activitystrea.ms/schema/1.0/create",
+          "joined": "https://activitystrea.ms/schema/1.0/join"
         }
       },
       "acrossx": {
@@ -373,6 +374,14 @@
             "en-US": "created"
           },
           "id": "http://activitystrea.ms/schema/1.0/create"
+        },
+        "joined": {
+          "display": {
+            "und": "joined",
+            "es-ES": "se unió",
+            "en-US": "joined"
+          },
+          "id": "https://activitystrea.ms/schema/1.0/join"
         }
       }
     },
