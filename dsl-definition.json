@@ -100,7 +100,8 @@
       "questions": "https://w3id.org/xapi/smart/extension/object/questions"
     },
     "acrossx": {
-      "suplementalInfo": "https://w3id.org/xapi/acrossx/extensions/supplemental-info"
+      "suplementalInfo": "https://w3id.org/xapi/acrossx/extensions/supplemental-info",
+      "supplementalInfo": "https://w3id.org/xapi/acrossx/extensions/supplemental-info"
     }
   },
   "verbs": {
