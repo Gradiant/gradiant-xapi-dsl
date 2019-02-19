@@ -19,4 +19,13 @@ export namespace acrossx {
     },
     id: ids.acrossx.posted
   };
+
+  export const edited: Verb = {
+    display: {
+      und: 'edited',
+      'es-ES': 'editó',
+      'en-US': 'edited'
+    },
+    id: ids.acrossx.edited
+  };
 }

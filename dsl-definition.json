@@ -148,7 +148,8 @@
       },
       "acrossx": {
         "evaluated": "https://w3id.org/xapi/acrossx/verbs/evaluated",
-        "posted": "https://w3id.org/xapi/acrossx/verbs/posted"
+        "posted": "https://w3id.org/xapi/acrossx/verbs/posted",
+        "edited": "https/w3id.org/xapi/acrossx/verbs/edited"
       },
       "tincan": {
         "enabled": "http://id.tincanapi.com/verb/enabled",
@@ -391,6 +392,14 @@
           "en-US": "posted"
         },
         "id": "https://w3id.org/xapi/acrossx/verbs/posted"
+      },
+      "edited": {
+        "display": {
+          "und": "edited",
+          "es-ES": "editó",
+          "en-US": "edited"
+        },
+        "id": "https/w3id.org/xapi/acrossx/verbs/edited"
       }
     },
     "tincan": {
