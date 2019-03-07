@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.5.0...v1.6.0) (2019-03-07)
+
+
+### Features
+
+* add feedback activity types ([f5a8406](https://github.com/Gradiant/gradiant-xapi-dsl/commit/f5a8406))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.5.0-0...v1.5.0) (2019-03-07)
 
