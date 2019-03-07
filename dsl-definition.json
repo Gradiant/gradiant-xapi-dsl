@@ -3,13 +3,17 @@
     "activityStream": {
       "v1": {
         "audio": "http://activitystrea.ms/schema/1.0/audio",
-        "video": "http://activitystrea.ms/schema/1.0/video"
+        "video": "http://activitystrea.ms/schema/1.0/video",
+        "question": "http://activitystrea.ms/schema/1.0/question",
+        "review": "http://activitystrea.ms/schema/1.0/review"
       }
     },
     "as": {
       "v1": {
         "audio": "http://activitystrea.ms/schema/1.0/audio",
-        "video": "http://activitystrea.ms/schema/1.0/video"
+        "video": "http://activitystrea.ms/schema/1.0/video",
+        "question": "http://activitystrea.ms/schema/1.0/question",
+        "review": "http://activitystrea.ms/schema/1.0/review"
       }
     },
     "qti": {
@@ -47,7 +51,8 @@
     "tincan": {
       "discussion": "http://id.tincanapi.com/activitytype/discussion",
       "forumTopic": "http://id.tincanapi.com/activitytype/forum-topic",
-      "forumReply": "http://id.tincanapi.com/activitytype/forum-reply"
+      "forumReply": "http://id.tincanapi.com/activitytype/forum-reply",
+      "survey": "http://id.tincanapi.com/activitytype/survey"
     }
   },
   "categoryIdentifiers": {
