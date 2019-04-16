@@ -4,7 +4,7 @@
 
 # Gradiant xAPI DSL
 
-Set of types for easily building xAPI statements.
+Set of types for easily building [xAPI](https://xapi.com) statements.
 
 ## Overview
 
