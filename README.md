@@ -8,9 +8,12 @@ Set of types for easily building [xAPI](https://xapi.com) statements.
 
 ## Overview
 
-This package contains the necessary xAPi typescript definitions types to work with xAPI statements.
+This package contains a set of typescript definitions types to work with xAPI statements.
 
-It also includes some external xAPI vocabulary terms (e.g. verbs, activities and extension identifiers) to be used in a centralized way. Some of the xAPI vocabularies considered here are:
+- Actor
+
+It also includes some external xAPI vocabulary terms (e.g. verbs, activities and extension identifiers) to be used in a centralized way.
+Some of the xAPI vocabularies considered here are:
 
 - external
   - [tincan](http://xapi.vocab.pub/describe/?url=https%3A%2F%2Fregistry.tincanapi.com&sid=32726)
@@ -23,22 +26,32 @@ It also includes some external xAPI vocabulary terms (e.g. verbs, activities and
   - gradiant
   - in2it
 
+## DSL
+
+You can consult the entire DSL at the [dsl-definition.json](./dsl-definition.json)
+
 ## Getting started
 
 The module exports in the index all the types needed by the xapi as well as the dsl as a nested object
 
-```javascript
+```typescript
 // xapi interfaces...
-import { Statement, Agent, Activity /* ... */ } from '@gradiant/xapi-dsl';
+import { Statement } from '@gradiant/xapi-dsl';
+
 // dsl nested object
 import { dsl } from '@gradiant/xapi-dsl';
 
-console.log(dsl.activityTypes.smart.essay); // essay activity type URI
+const statement: Statement = jsonStatement as Statement;
+
+if (statement.verb.id === dsl.activityTypes.smart.essay) {
+  // essay activity type URI
+  console.log('Smart essay activity');
+}
 ```
 
 Also, DSL constants can be imported individually from the `dsl` folder
 
-```javascript
+```typescript
 import { activityTypes, verbs, contextExtensions /* ... */ } from '@gradiant/xapi-dsl/dsl';
 ```
 
@@ -63,7 +76,3 @@ Remove the following generated directories/files
 ### npm run lint
 
 Run `tslint` and `prettier` applying the available fixes
-
-## DSL
-
-[DSL](./dsl-definition.json)
