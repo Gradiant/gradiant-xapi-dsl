@@ -11,6 +11,12 @@ Set of types for easily building [xAPI](https://xapi.com) statements.
 This package contains a set of typescript definitions types to work with xAPI statements.
 
 - Actor
+- Attachment
+- Context
+- Object
+- Result
+- Statement
+- Verb
 
 It also includes some external xAPI vocabulary terms (e.g. verbs, activities and extension identifiers) to be used in a centralized way.
 Some of the xAPI vocabularies considered here are:
