@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.7.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.6.0...v1.7.0) (2019-06-19)
+
+
+### Features
+
+* Change License from privative to Mozilla Plubic License (MPL) 2.0 ([ca49159](https://github.com/Gradiant/gradiant-xapi-dsl/commit/ca49159))
+
+
 
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.5.0...v1.6.0) (2019-03-07)
