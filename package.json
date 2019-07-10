@@ -8,7 +8,8 @@
     "node": ">=8"
   },
   "contributors": [
-    "Agustín Cañas <acanas@gradiant.org>"
+    "Agustín Cañas <acanas@gradiant.org>",
+    "Jose Vilas <jvilas@gradiant.org>"
   ],
   "repository": {
     "type": "git",

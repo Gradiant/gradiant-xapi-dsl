@@ -98,7 +98,9 @@
     "smart": {
       "userAction": "https://w3id.org/xapi/smart/extension/result/user-action",
       "evaluationFeedback": "https://w3id.org/xapi/smart/extension/result/evaluation-feedback",
-      "discussionMessage": "https://w3id.org/xapi/smart/extension/result/discussion-message"
+      "discussionMessage": "https://w3id.org/xapi/smart/extension/result/discussion-message",
+      "activityMode": "https://w3id.org/xapi/smart/extension/result/activity-mode",
+      "activityStatus": "https://w3id.org/xapi/smart/extension/result/activity-status"
     }
   },
   "objectExtensions": {
