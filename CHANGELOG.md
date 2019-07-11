@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.7.0...v1.8.0) (2019-07-11)
+
+
+### Features
+
+* Add new result extensions for smart ([f3d2761776bee66a2953b5a6e868e248cd114bb9](https://github.com/Gradiant/gradiant-xapi-dsl/commit/f3d2761776bee66a2953b5a6e868e248cd114bb9))
+
+
+
 ## [1.7.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.6.0...v1.7.0) (2019-06-19)
 
 
