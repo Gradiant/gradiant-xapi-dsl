@@ -29,4 +29,7 @@ export namespace smart {
 
   // Quiztionary
   export const quiz = 'https://w3id.org/xapi/smart/activity/quiz';
+
+  // Scorm activities
+  export const scorm = 'https://w3id.org/xapi/smart/activity/scorm';
 }
