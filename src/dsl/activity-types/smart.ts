@@ -14,6 +14,8 @@ export namespace smart {
   export const video = 'https://w3id.org/xapi/smart/activity/video';
   export const noInteractive = 'https://w3id.org/xapi/smart/activity/no-interactive';
   export const discussion = 'https://w3id.org/xapi/smart/activity/discussion';
+  export const matrixSingleChoice = 'https://w3id.org/xapi/smart/activity/matrix-single-choice';
+  export const matrixMultipleChoice = 'https://w3id.org/xapi/smart/activity/matrix-multiple-choice';
 
   // Containers
   export const book = 'https://w3id.org/xapi/smart/activity/book';

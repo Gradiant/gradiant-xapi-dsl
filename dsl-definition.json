@@ -37,6 +37,8 @@
       "video": "https://w3id.org/xapi/smart/activity/video",
       "noInteractive": "https://w3id.org/xapi/smart/activity/no-interactive",
       "discussion": "https://w3id.org/xapi/smart/activity/discussion",
+      "matrixSingleChoice": "https://w3id.org/xapi/smart/activity/matrix-single-choice",
+      "matrixMultipleChoice": "https://w3id.org/xapi/smart/activity/matrix-multiple-choice",
       "book": "https://w3id.org/xapi/smart/activity/book",
       "unit": "https://w3id.org/xapi/smart/activity/unit",
       "lesson": "https://w3id.org/xapi/smart/activity/lesson",
