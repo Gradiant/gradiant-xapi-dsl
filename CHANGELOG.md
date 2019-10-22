@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.8.0...v1.10.0) (2019-10-22)
+
+
+### Features
+
+* **SUMN-1099:** Smart Scorm activity and recipe added ([3a95219](https://github.com/Gradiant/gradiant-xapi-dsl/commit/3a95219d0700a115c707aa001659ea22d1be292e))
+* **SUMN-1101:** Support matrix type activities ([2e106dc](https://github.com/Gradiant/gradiant-xapi-dsl/commit/2e106dce7899d30d5580151c718b03b9531a4208))
+
 ## [1.9.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.8.0...v1.9.0) (2019-10-15)
 
 
