@@ -16,6 +16,9 @@ export namespace smart {
   export const discussion = 'https://w3id.org/xapi/smart/activity/discussion';
   export const matrixSingleChoice = 'https://w3id.org/xapi/smart/activity/matrix-single-choice';
   export const matrixMultipleChoice = 'https://w3id.org/xapi/smart/activity/matrix-multiple-choice';
+  export const draw = 'https://w3id.org/xapi/smart/activity/draw';
+  export const responseInImage = 'https://w3id.org/xapi/smart/activity/response-in-image';
+  export const likert = 'https://w3id.org/xapi/smart/activity/likert';
 
   // Containers
   export const book = 'https://w3id.org/xapi/smart/activity/book';
