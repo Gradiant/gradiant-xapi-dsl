@@ -39,6 +39,9 @@
       "discussion": "https://w3id.org/xapi/smart/activity/discussion",
       "matrixSingleChoice": "https://w3id.org/xapi/smart/activity/matrix-single-choice",
       "matrixMultipleChoice": "https://w3id.org/xapi/smart/activity/matrix-multiple-choice",
+      "draw": "https://w3id.org/xapi/smart/activity/draw",
+      "responseInImage": "https://w3id.org/xapi/smart/activity/response-in-image",
+      "likert": "https://w3id.org/xapi/smart/activity/likert",
       "book": "https://w3id.org/xapi/smart/activity/book",
       "unit": "https://w3id.org/xapi/smart/activity/unit",
       "lesson": "https://w3id.org/xapi/smart/activity/lesson",
@@ -65,7 +68,8 @@
       "recipeAudioVideo": "https://w3id.org/xapi/smart/activity/recipe/audio_video",
       "recipeDiscussion": "https://w3id.org/xapi/smart/activity/recipe/discussion",
       "recipeNoInteractive": "https://w3id.org/xapi/smart/activity/recipe/no_interactive",
-      "recipeScorm": "https://w3id.org/xapi/smart/activity/recipe/scorm"
+      "recipeScorm": "https://w3id.org/xapi/smart/activity/recipe/scorm",
+      "recipeLikert": "https://w3id.org/xapi/smart/activity/recipe/likert"
     }
   },
   "contextExtensions": {
