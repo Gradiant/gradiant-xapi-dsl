@@ -1,6 +1,6 @@
 {
   "name": "@gradiant/xapi-dsl",
-  "version": "1.11.1",
+  "version": "1.11.2",
   "description": "Gradiant XAPI constans for xAPI",
   "license": "UNLICENSED",
   "author": "Lorens León <lleon@gradiant.org>",
@@ -18,10 +18,10 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "tslint 'src/**/*.{js,ts}' && prettier -l 'src/**/*.{js,ts}' && tsc --noEmit",
+    "test": "tslint 'src/**/*.{js,ts}' && prettier -l 'src/**/*.{js,ts}' && ./node_modules/typescript/bin/tsc --noEmit",
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean",
-    "build": "tsc",
+    "build": "./node_modules/typescript/bin/tsc",
     "clean": "rm -rf dsl types index.js index.d.ts index.d.ts.map",
     "lint": "prettier --write 'src/**/*.{js,ts}' && tslint --fix 'src/**/*.{js,ts}'",
     "dsl:print": "node -r ts-node/register/transpile-only -p \"JSON.stringify(require('./src').dsl, null, 2)\" > dsl-definition.json"
@@ -34,7 +34,7 @@
     "travis-deploy-once": "^3.3.0",
     "ts-node": "^10.7.0",
     "tslint": "^5.15.0",
-    "typescript": "^4.6.3"
+    "typescript": "3.8.2"
   },
   "husky": {
     "hooks": {
