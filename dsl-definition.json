@@ -42,6 +42,8 @@
       "draw": "https://w3id.org/xapi/smart/activity/draw",
       "responseInImage": "https://w3id.org/xapi/smart/activity/response-in-image",
       "likert": "https://w3id.org/xapi/smart/activity/likert",
+      "audioRecording": "https://w3id.org/xapi/smart/activity/audio-recording",
+      "videoRecording": "https://w3id.org/xapi/smart/activity/video-recording",
       "book": "https://w3id.org/xapi/smart/activity/book",
       "unit": "https://w3id.org/xapi/smart/activity/unit",
       "lesson": "https://w3id.org/xapi/smart/activity/lesson",
