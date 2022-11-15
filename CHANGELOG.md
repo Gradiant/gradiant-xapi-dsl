@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.11.2...v1.12.0) (2022-11-14)
+
+
+### Features
+
+* **[25](https://github.com/Gradiant/gradiant-xapi-dsl/issues/25):** Support audio and video recording activities
 
 
 ## [1.11.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.10.0...v1.11.0) (2022-04-08)
