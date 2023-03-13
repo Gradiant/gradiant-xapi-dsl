@@ -44,6 +44,7 @@
       "likert": "https://w3id.org/xapi/smart/activity/likert",
       "audioRecording": "https://w3id.org/xapi/smart/activity/audio-recording",
       "videoRecording": "https://w3id.org/xapi/smart/activity/video-recording",
+      "uploadFile": "https://w3id.org/xapi/smart/activity/upload-file",
       "book": "https://w3id.org/xapi/smart/activity/book",
       "unit": "https://w3id.org/xapi/smart/activity/unit",
       "lesson": "https://w3id.org/xapi/smart/activity/lesson",

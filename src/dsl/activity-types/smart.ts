@@ -21,6 +21,7 @@ export namespace smart {
   export const likert = 'https://w3id.org/xapi/smart/activity/likert';
   export const audioRecording = 'https://w3id.org/xapi/smart/activity/audio-recording';
   export const videoRecording = 'https://w3id.org/xapi/smart/activity/video-recording';
+  export const uploadFile = 'https://w3id.org/xapi/smart/activity/upload-file';
 
   // Containers
   export const book = 'https://w3id.org/xapi/smart/activity/book';
