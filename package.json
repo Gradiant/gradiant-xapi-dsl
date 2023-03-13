@@ -1,6 +1,6 @@
 {
   "name": "@gradiant/xapi-dsl",
-  "version": "1.12.0",
+  "version": "1.14.0",
   "description": "Gradiant XAPI constants for xAPI",
   "license": "UNLICENSED",
   "author": "Lorens León <lleon@gradiant.org>",
