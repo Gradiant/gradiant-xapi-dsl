@@ -28,9 +28,9 @@
   },
   "devDependencies": {
     "husky": "^7.0.4",
-    "lint-staged": "^12.3.7",
+    "lint-staged": "^13.2.1",
     "prettier": "2.6.2",
-    "semantic-release": "^19.0.2",
+    "semantic-release": "^21.0.1",
     "travis-deploy-once": "^3.3.0",
     "ts-node": "^10.7.0",
     "tslint": "^5.15.0",
