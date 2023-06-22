@@ -30,6 +30,7 @@
       "fillInTheGaps": "https://w3id.org/xapi/smart/activity/fill-in-the-gaps",
       "matchingPairs": "https://w3id.org/xapi/smart/activity/matching-pairs",
       "multipleChoice": "https://w3id.org/xapi/smart/activity/multiple-choice",
+      "imageMultipleChoice": "https://w3id.org/xapi/smart/activity/image-multiple-choice",
       "openAnswer": "https://w3id.org/xapi/smart/activity/open-answer",
       "singleChoice": "https://w3id.org/xapi/smart/activity/single-choice",
       "wordsBank": "https://w3id.org/xapi/smart/activity/words-bank",
