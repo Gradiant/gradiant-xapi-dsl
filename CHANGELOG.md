@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.16.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.15.0...v1.16.0) (2023-08-21)
+
+### Features
+
+* **[35](https://github.com/Gradiant/gradiant-xapi-dsl/issues/35):** Support dragging image activities
+
+
+## [1.15.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.14.0...v1.15.0) (2023-06-22)
+
+### Features
+
+* **[33](https://github.com/Gradiant/gradiant-xapi-dsl/issues/33):** Support image multiple choice activities
+
+
+
+## [1.14.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.12.2...v1.14.0) (2023-03-13)
+
+### Features
+
+* **[30](https://github.com/Gradiant/gradiant-xapi-dsl/issues/30):** Support upload file activities
+
+
+
+## [1.12.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.11.2...v1.12.0) (2022-11-14)
+
+
+### Features
+
+* **[25](https://github.com/Gradiant/gradiant-xapi-dsl/issues/25):** Support audio and video recording activities
 
 
 ## [1.11.0](https://github.com/Gradiant/gradiant-xapi-dsl/compare/v1.10.0...v1.11.0) (2022-04-08)
