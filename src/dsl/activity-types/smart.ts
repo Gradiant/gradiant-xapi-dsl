@@ -7,6 +7,8 @@ export namespace smart {
   export const fillInTheGaps = 'https://w3id.org/xapi/smart/activity/fill-in-the-gaps';
   export const matchingPairs = 'https://w3id.org/xapi/smart/activity/matching-pairs';
   export const multipleChoice = 'https://w3id.org/xapi/smart/activity/multiple-choice';
+  export const imageMultipleChoice = 'https://w3id.org/xapi/smart/activity/image-multiple-choice';
+  export const draggingImage = 'https://w3id.org/xapi/smart/activity/dragging-image';
   export const openAnswer = 'https://w3id.org/xapi/smart/activity/open-answer';
   export const singleChoice = 'https://w3id.org/xapi/smart/activity/single-choice';
   export const wordsBank = 'https://w3id.org/xapi/smart/activity/words-bank';
@@ -21,6 +23,7 @@ export namespace smart {
   export const likert = 'https://w3id.org/xapi/smart/activity/likert';
   export const audioRecording = 'https://w3id.org/xapi/smart/activity/audio-recording';
   export const videoRecording = 'https://w3id.org/xapi/smart/activity/video-recording';
+  export const uploadFile = 'https://w3id.org/xapi/smart/activity/upload-file';
 
   // Containers
   export const book = 'https://w3id.org/xapi/smart/activity/book';

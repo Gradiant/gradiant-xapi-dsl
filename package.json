@@ -1,12 +1,15 @@
 {
   "name": "@gradiant/xapi-dsl",
-  "version": "1.12.0",
+  "version": "1.16.0",
   "description": "Gradiant XAPI constants for xAPI",
-  "license": "UNLICENSED",
+  "license": "Mozilla Public License Version 2.0",
   "author": "Lorens León <lleon@gradiant.org>",
   "engines": {
     "node": ">=8"
   },
+  "maintainers": [
+    "Agustín Cañas <acanas@gradiant.org>"
+  ],
   "contributors": [
     "Agustín Cañas <acanas@gradiant.org>",
     "Jose Vilas <jvilas@gradiant.org>"
