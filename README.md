@@ -82,3 +82,8 @@ Remove the following generated directories/files
 ### npm run lint
 
 Run `tslint` and `prettier` applying the available fixes
+
+
+### npm run dsl:print
+
+It generates a new version of dsl-definition.json file. This file must be updated to release a new version. 
