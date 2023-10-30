@@ -47,6 +47,8 @@
       "audioRecording": "https://w3id.org/xapi/smart/activity/audio-recording",
       "videoRecording": "https://w3id.org/xapi/smart/activity/video-recording",
       "uploadFile": "https://w3id.org/xapi/smart/activity/upload-file",
+      "mathFormulae": "https://w3id.org/xapi/smart/activity/math-formulae",
+      "password": "https://w3id.org/xapi/smart/activity/password",
       "book": "https://w3id.org/xapi/smart/activity/book",
       "unit": "https://w3id.org/xapi/smart/activity/unit",
       "lesson": "https://w3id.org/xapi/smart/activity/lesson",
