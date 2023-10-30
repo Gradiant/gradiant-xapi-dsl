@@ -25,6 +25,7 @@ export namespace smart {
   export const videoRecording = 'https://w3id.org/xapi/smart/activity/video-recording';
   export const uploadFile = 'https://w3id.org/xapi/smart/activity/upload-file';
   export const mathFormulae = 'https://w3id.org/xapi/smart/activity/math-formulae';
+  export const password = 'https://w3id.org/xapi/smart/activity/password';
 
   // Containers
   export const book = 'https://w3id.org/xapi/smart/activity/book';
