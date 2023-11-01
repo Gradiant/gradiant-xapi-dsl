@@ -6,4 +6,5 @@ export namespace smart {
   export const recipeNoInteractive = 'https://w3id.org/xapi/smart/activity/recipe/no_interactive';
   export const recipeScorm = 'https://w3id.org/xapi/smart/activity/recipe/scorm';
   export const recipeLikert = 'https://w3id.org/xapi/smart/activity/recipe/likert';
+  export const recipeMinigame = 'https://w3id.org/xapi/smart/activity/recipe/minigame';
 }

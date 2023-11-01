@@ -76,7 +76,8 @@
       "recipeDiscussion": "https://w3id.org/xapi/smart/activity/recipe/discussion",
       "recipeNoInteractive": "https://w3id.org/xapi/smart/activity/recipe/no_interactive",
       "recipeScorm": "https://w3id.org/xapi/smart/activity/recipe/scorm",
-      "recipeLikert": "https://w3id.org/xapi/smart/activity/recipe/likert"
+      "recipeLikert": "https://w3id.org/xapi/smart/activity/recipe/likert",
+      "recipeMinigame": "https://w3id.org/xapi/smart/activity/recipe/minigame"
     }
   },
   "contextExtensions": {
